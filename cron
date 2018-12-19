@@ -1,0 +1,5 @@
+//定时清理zb_lists表，防止数据表过大
+0 */1 * * * /usr/bin/php /www/wwwroot/yii2zb/yii delete/index
+
+//定时执行爬虫爬取所有连接
+*/1 * * * * cd /www/wwwroot/yii2zb/frontend/web && /usr/bin/python zb1.py
