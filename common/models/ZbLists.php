@@ -46,7 +46,7 @@ class ZbLists extends \yii\db\ActiveRecord
     {
         $model = new self();
         $model->plant_id = $plantId;
-        $model->address = $array['title'];
+        $model->address = $array['address'];
         $model->img = $array['img'];
         $model->title = $array['title'];
         if ($model->validate()) {
