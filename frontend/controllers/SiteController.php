@@ -83,7 +83,7 @@ class SiteController extends BaseController
     {
         if ($this->xianlu == 1) {
             $func = 'agent1';
-            $preAddress = 'json.txt';
+            $preAddress = 'yuncaidan.txt';
         }elseif($this->xianlu == 2){
             $func = 'agent2';
             $preAddress = 'list';
